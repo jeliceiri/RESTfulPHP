@@ -1,0 +1,42 @@
+<html>
+    <body>
+        <h3>Client Task Service: Choose any of the following:</h3>
+
+        <form id="taskForm" action="clientTaskRequest.php" method="POST">
+            <div>
+            <h3>1. Create a Record</h3>
+            <label for="desc">Description</label></br>
+            <input type="text" name="create">
+            </div>
+
+            <div>
+            <h3>2. Read all Records</h3>
+            <label for="readAll">Enter "yes" to read all Records</label></br>
+            <input type="text" name="readAll">
+            </div>
+
+            <div>
+            <h3>3. Read one Records</h3>
+            <label for="readOne">Enter the ID to read one record</label></br>
+            <input type="text" name="readOne">
+            </div>
+
+            <div>
+            <h3>4. Update a Record</h3>
+            <label for="id">Enter the ID</label></br>
+            <input type="text" name="updateID"></br>
+
+            <label for="desc">Enter the new task description</label></br>
+            <input type="text" name="updateDesc">
+            </div>
+
+            <div>
+            <h3>5. Delete a Records</h3>
+            <label for="deleteID">Enter the ID</label></br>
+            <input type="text" name="deleteID">
+            </div>
+
+            <p><input type="submit" /></p>
+        </form>
+    </body>
+</html>
